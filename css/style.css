@@ -341,6 +341,100 @@ footer {
 .i_footer {
     padding-right: 22px;
 }
+@media (max-width: 1024px){
+    section {
+        margin-right: 0;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .navigation {
+        margin-right: 50px;
+        justify-content: space-around;
+    }
+    .container {
+        width: 900px;
+        margin-right: 40px;
+    }
+    .block__info {
+        margin-left: 250px;
+    }
+    .img_bubu {
+        width: 455px;
+        height: 350px;
+    }
+    .info {
+        margin-left: -40px;
+    }
+    .p_zx {
+       margin-left: 175px;
+    }
+    .section_micro {
+       width: 90%;
+    }
+    .papa1{
+        width: 95%;
+    }
+    .papa{
+        padding-left: 400px;
+    }
+    .text_konch {
+        margin-left: 175px;
+    }
+    .hero__img{
+        margin-right: 50px;
+    }
+    .h_footer {
+        padding-left: 20px;
+    }
+    .text_c {
+        padding-left: 20px;
+    }
+    .img_footer {
+        max-width: 1024px;
+        padding-left: 800px;
+    }
+}
 
-
-
+@media (max-width: 768px) {
+    .nav__item {
+        margin-left: -200px;
+    }
+    .hero__img {
+        display: none;
+    }
+    .hero_main {
+        margin-left: 40px;
+    }
+    .block__info {
+        margin-left: 100px;
+    }
+    .img_bubu {
+        display: none;
+    }
+    .info {
+        margin-left: 40px;
+    }
+    .projects {
+        margin-left: 20px;
+    }
+    .zxzxzx {
+        margin-left: -65px;
+    }
+    .papa1 {
+        display: none;
+    }
+    .soft {
+        margin-left: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .konec {
+        margin-left: -65px;
+    }
+    .img_footer {
+        max-width: 768px;
+        padding-left: 500px;
+    }
+}
