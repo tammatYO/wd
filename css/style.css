@@ -341,9 +341,13 @@ footer {
 .i_footer {
     padding-right: 22px;
 }
+/*ipad pro*/
 @media (max-width: 1024px){
     section {
         margin-right: 0;
+    }
+    .section__about {
+        margin-right: 20%;
     }
     .logo {
         margin-left: 20px;
@@ -356,7 +360,7 @@ footer {
         width: 900px;
         margin-right: 40px;
     }
-    .block__info {
+    .blockinfo {
         margin-left: 250px;
     }
     .img_bubu {
@@ -381,7 +385,10 @@ footer {
     .text_konch {
         margin-left: 175px;
     }
-    .hero__img{
+    .text_kon {
+        margin-right: 50px;
+    }
+    .heroimg{
         margin-right: 50px;
     }
     .h_footer {
@@ -396,6 +403,7 @@ footer {
     }
 }
 
+/*ipad*/
 @media (max-width: 768px) {
     .nav__item {
         margin-left: -200px;
@@ -405,6 +413,10 @@ footer {
     }
     .hero_main {
         margin-left: 40px;
+    }
+    .hero__info {
+        text-align: center;
+        margin-left: 100px;
     }
     .block__info {
         margin-left: 100px;
@@ -418,17 +430,15 @@ footer {
     .projects {
         margin-left: 20px;
     }
+    .soft {
+        flex-wrap: wrap;
+        width: 100%;
+    }
     .zxzxzx {
         margin-left: -65px;
     }
     .papa1 {
         display: none;
-    }
-    .soft {
-        margin-left: 40px;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
     }
     .konec {
         margin-left: -65px;
@@ -438,11 +448,13 @@ footer {
         padding-left: 500px;
     }
 }
+
+/*iphone*/
 @media (max-width: 375px) {
     a.logo {
         display: none;
     }
-    .navitem {
+    .nav__item {
         margin-right: 10%;
     }
     .mr {
@@ -457,7 +469,7 @@ footer {
     .input_mes {
         width: 375px;
     }
-    .heroinfo, .block__info {
+    .hero__info, .block__info {
         width: 375px;
         margin-left: 0;
     }
