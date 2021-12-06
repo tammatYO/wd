@@ -438,3 +438,31 @@ footer {
         padding-left: 500px;
     }
 }
+@media (max-width: 375px) {
+    a.logo {
+        display: none;
+    }
+    .navitem {
+        margin-right: 10%;
+    }
+    .mr {
+        margin-left: -70%;
+    }
+    .kont {
+       display: none;
+    }
+    .input_eb {
+        margin-left: 20%;
+    }
+    .input_mes {
+        width: 375px;
+    }
+    .heroinfo, .block__info {
+        width: 375px;
+        margin-left: 0;
+    }
+    .text_zx, .zx, .text_kon, .kkk {
+        width: 375px;
+        margin-left: 7.5%;
+    }
+}
