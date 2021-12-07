@@ -341,6 +341,15 @@ footer {
 .i_footer {
     padding-right: 22px;
 }
+.button__primary:hover {
+    filter: hue-rotate(40deg);
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+}
+.i_footer:hover {
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
 /*ipad pro*/
 @media (max-width: 1024px){
     section {
